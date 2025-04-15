@@ -1,0 +1,193 @@
+V "GNAT Lib v13"
+A -O3
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U os_utils%b		os_utils.adb		7be2800b NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.environment_variables%s  a-envvar.adb	a-envvar.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.fixed%s	a-strfix.adb		a-strfix.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W gnat%s		gnat.ads		gnat.ali
+W gnat.expect%s		g-expect.adb		g-expect.ali
+W gnat.os_lib%s		g-os_lib.ads		g-os_lib.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+U os_utils%s		os_utils.ads		6e38fc91 EE NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+
+D ada.ads		20240521074738 76789da1 ada%s
+D a-charac.ads		20240521074737 2d3ec45b ada.characters%s
+D a-chlat1.ads		20240521074737 e0d72e76 ada.characters.latin_1%s
+D a-envvar.ads		20240521074738 00080416 ada.environment_variables%s
+D a-except.ads		20240521074738 2a7d8d70 ada.exceptions%s
+D a-finali.ads		20240521074738 bf4f806b ada.finalization%s
+D a-ioexce.ads		20240521074738 40018c65 ada.io_exceptions%s
+D a-stream.ads		20240521074738 119b8fb3 ada.streams%s
+D a-string.ads		20240521074738 90ac6797 ada.strings%s
+D a-strfix.ads		20240521074738 d8832344 ada.strings.fixed%s
+D a-strmap.ads		20240521074738 ed8acfdb ada.strings.maps%s
+D a-strsea.ads		20240521074738 2d394feb ada.strings.search%s
+D a-sttebu.ads		20240521074738 f1ad67a2 ada.strings.text_buffers%s
+D a-strunb.ads		20240521074738 7bfb7010 ada.strings.unbounded%s
+D a-stuten.ads		20240521074738 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20240521074738 9eaa38c6 ada.tags%s
+D a-textio.ads		20240521074738 5c2c6153 ada.text_io%s
+D a-unccon.ads		20240521074738 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20240521074738 c3a8ac65 ada.unchecked_deallocation%s
+D gnat.ads		20240521074738 b5988c27 gnat%s
+D g-expect.ads		20240521074738 e4246c0f gnat.expect%s
+D g-os_lib.ads		20240521074738 0db74523 gnat.os_lib%s
+D g-regpat.ads		20240521074738 b85d88ef gnat.regpat%s
+D interfac.ads		20240521074738 15f799c2 interfaces%s
+D i-cstrea.ads		20240521074738 e53d8b8e interfaces.c_streams%s
+D os_utils.ads		20250102165510 6e38fc91 os_utils%s
+D os_utils.adb		20250102165510 031563a7 os_utils%b
+D system.ads		20240521074738 426dafb8 system%s
+D s-atocou.ads		20240521074738 dc18efc3 system.atomic_counters%s
+D s-crtl.ads		20240521074738 8a0692f8 system.crtl%s
+D s-exctab.ads		20240521074738 91bef6ef system.exception_table%s
+D s-ficobl.ads		20240521074738 dc5161d4 system.file_control_block%s
+D s-finmas.ads		20240521074738 bd688734 system.finalization_masters%s
+D s-finroo.ads		20240521074738 4ff27390 system.finalization_root%s
+D s-memory.ads		20240521074738 5b8432d0 system.memory%s
+D s-os_lib.ads		20240904144414 53d49d2a system.os_lib%s
+D s-parame.ads		20240904144414 1f39ba92 system.parameters%s
+D s-pooglo.ads		20240521074738 91708d21 system.pool_global%s
+D s-putima.ads		20240521074738 17291fe4 system.put_images%s
+D s-regpat.ads		20240521074738 3f91c1d3 system.regpat%s
+D s-retsta.ads		20240521074738 0f6b06cb system.return_stack%s
+D s-secsta.ads		20240521074738 578279f5 system.secondary_stack%s
+D s-soflin.ads		20240521074738 df77073e system.soft_links%s
+D s-stache.ads		20240521074738 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20240521074738 1c9580f6 system.standard_library%s
+D s-stalib.adb		20240521074738 eb464a47 system.standard_library%b
+D s-stoele.ads		20240521074738 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20240521074738 8f5a9db6 system.storage_elements%b
+D s-stopoo.ads		20240521074738 e9fa2dd8 system.storage_pools%s
+D s-stratt.ads		20240521074738 f7dfd786 system.stream_attributes%s
+D s-string.ads		20240521074738 582aac7d system.strings%s
+D s-traent.ads		20240521074738 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20240521074738 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20240521074738 d9032363 system.wch_con%s
+G a e
+G c Z s b [check_intel_supported_system os_utils 15 14 none]
+G c Z s b [check_raspberry_pi_supported_system os_utils 18 14 none]
+G c Z s b [get_platform_name os_utils 23 14 none]
+G c Z s b [get_os_name os_utils 27 14 none]
+G c Z b b [get_architecture_name os_utils 33 14 none]
+G c Z b b [get_platform_name_raspberry os_utils 57 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 27|12r6 12r23 13r6 13r29 15r6 15r33 17r6 17r37 288r13 289r20
+X 4 a-envvar.ads
+19K13*Environment_Variables 69e30 27|17w10 17r41 288r17 289r24
+22V13*Value{string} 27|289s46
+34V13*Exists{boolean} 27|288s39
+X 9 a-string.ads
+16K13*Strings 35e16 27|13r10 13r33 15r10 15r37
+X 10 a-strfix.ads
+49K21*Fixed 1433e22 27|13w18 13r41
+253V13*Index{natural} 27|72s29 80s29 88s29 98s29 108s29 114s29 120s29 126s29
+. 132s29 138s29 144s29 153s29 161s29 169s29 179s29 185s29 191s29 197s29 203s29
+. 209s29 215s29 242s29 247s29 262s33 267s33
+X 14 a-strunb.ads
+85K21*Unbounded 766e26 27|15w18 15r45
+91R9*Unbounded_String<6|43R9> 745e15 27|61r23 234r23 235r22
+108V13*To_Unbounded_String{91R9} 27|67s28 240s28 249s31 260s32
+121V13*To_String{string} 27|72s36 80s36 88s36 98s36 108s36 114s36 120s36
+. 126s36 132s36 138s36 144s36 153s36 161s36 169s36 179s36 185s36 191s36 197s36
+. 203s36 209s36 215s36 242s36 247s36 262s40 267s40
+249V14*"="{boolean} 27|256s24
+X 17 a-textio.ads
+58K13*Text_IO 787e16 27|12w10 12r27
+66P9*File_Type 27|58r18 231r18
+68n23*In_File{68E9} 27|64r23 237r23 257r27
+114U14*Open 27|64s9 237s9 257s13
+130U14*Close 27|221s9 254s9 274s13
+341V13*End_Of_File{boolean} 27|66s19 239s19 259s23
+549V13*Get_Line{string} 27|67s49 240s49 260s53
+566U14*Put_Line 27|226s13
+X 20 gnat.ads
+37K9*GNAT 60e9 27|14r6 14r23 16r6 16r23
+X 21 g-expect.ads
+126K14*Expect 651e16 27|16w11 16r28
+227V13*Get_Command_Output{string} 27|41s15
+228a7 Command{string} 27|42r18
+229a7 Arguments{36|728A12} 27|43r18
+230a7 Input{string} 27|44r18
+231p7 Status(integer) 27|45r18
+X 22 g-os_lib.ads
+51K14*OS_Lib=51:36 27|14w11 14r28
+X 26 os_utils.ads
+12K9*OS_Utils 29l5 29e13 27|19b14 295l5 295t13
+15V14*Check_Intel_Supported_System{boolean} 15>44 27|21b14 24t8
+15a44 Platform_Name{string} 27|21b44 23r16
+18V14*Check_Raspberry_Pi_Supported_System{boolean} 18>51 27|27b14 30t8
+18a51 Platform_Name{string} 27|27b51 29r16
+23V14*Get_Platform_Name{string} 27|230b14 284t8
+27V14*Get_OS_Name{string} 27|286b14 293t8
+X 27 os_utils.adb
+33V14 Get_Architecture_Name{string} 33b14 53t8 62s39
+34a9 Command{string} 38r42
+35p9 Args{36|733P12} 38m9 42r31 42r37 43r31 43r37 43r55 47m19 47r19
+36i9 Status{integer} 45m31 45r31
+40a13 Response{string} 48r20
+57V14 Get_Platform_Name_Raspberry{string} 57b14 228t8 277s16
+58p9 F_Name{17|66P9} 64m15 64r15 66r32 67r59 221m16 221r16
+59a9 File_Name{string} 64r32 226r66
+60i9 Index_Search{integer} 72m13 73r17 80m13 81r17 88m13 89r17 98m13 99r17
+. 108m13 109r17 114m13 115r17 120m13 121r17 126m13 127r17 132m13 133r17 138m13
+. 139r17 144m13 145r17 153m13 154r17 161m13 162r17 169m13 170r17 179m13 180r17
+. 185m13 186r17 191m13 192r17 197m13 198r17 203m13 204r17 209m13 210r17 215m13
+. 216r17
+61r9 Line_String{14|91R9} 67m13 72r47 80r47 88r47 98r47 108r47 114r47 120r47
+. 126r47 132r47 138r47 144r47 153r47 161r47 169r47 179r47 185r47 191r47 197r47
+. 203r47 209r47 215r47
+62a9 Architecture_Name{string} 74r21 82r21 90r21 100r21 155r21 163r21 171r21
+231p9 F_Name{17|66P9} 237m15 237r15 239r32 240r59 254m16 254r16 257m19 257r19
+. 259r36 260r63 274m20 274r20
+232a9 File_Name{string} 237r32 257r36
+233i9 Index_Search{integer} 242m13 243r17 247m13 248r17 262m17 263r21 267m17
+. 268r21
+234r9 Line_String{14|91R9} 240m13 242r47 247r47 260m17 262r51 267r51
+235r9 AMD_vendor{14|91R9} 249m17 256r13
+X 28 system.ads
+67M9*Address
+X 35 s-memory.ads
+51V13*Alloc{28|67M9} 101i<c,__gnat_malloc>22
+66U14*Free 102i<c,__gnat_free>22
+74V13*Realloc{28|67M9} 103i<c,__gnat_realloc>22
+X 36 s-os_lib.ads
+71A12*String_List{51|52A9}<integer>
+85P12*String_List_Access{51|53P9}
+91U14*Free=91:69 27|47s13
+728A12*Argument_List{71A12}<integer>
+733P12*Argument_List_Access{85P12} 27|35r22
+750V13*Argument_String_To_List{733P12} 27|38s17
+1049U14*OS_Exit 27|227s13
+X 46 s-stalib.adb
+87U14 Break_Start 88i<c,__gnat_break_start>22
+X 51 s-string.ads
+43P9*String_Access(string)
+52A9*String_List(43P9)<integer>
+53P9*String_List_Access(52A9)
+

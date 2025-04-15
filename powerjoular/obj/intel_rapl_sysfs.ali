@@ -1,0 +1,137 @@
+V "GNAT Lib v13"
+A -O3
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U intel_rapl_sysfs%b	intel_rapl_sysfs.adb	085ff047 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.strings%s		a-string.ads		a-string.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W gnat%s		gnat.ads		gnat.ali
+W gnat.os_lib%s		g-os_lib.ads		g-os_lib.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.val_lflt%s	s-vallfl.ads		s-vallfl.ali
+
+U intel_rapl_sysfs%s	intel_rapl_sysfs.ads	9b6a35d9 EE NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+
+D ada.ads		20240521074738 76789da1 ada%s
+D a-charac.ads		20240521074737 2d3ec45b ada.characters%s
+D a-chlat1.ads		20240521074737 e0d72e76 ada.characters.latin_1%s
+D a-except.ads		20240521074738 2a7d8d70 ada.exceptions%s
+D a-finali.ads		20240521074738 bf4f806b ada.finalization%s
+D a-ioexce.ads		20240521074738 40018c65 ada.io_exceptions%s
+D a-stream.ads		20240521074738 119b8fb3 ada.streams%s
+D a-string.ads		20240521074738 90ac6797 ada.strings%s
+D a-strmap.ads		20240521074738 ed8acfdb ada.strings.maps%s
+D a-sttebu.ads		20240521074738 f1ad67a2 ada.strings.text_buffers%s
+D a-strunb.ads		20240521074738 7bfb7010 ada.strings.unbounded%s
+D a-stuten.ads		20240521074738 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20240521074738 9eaa38c6 ada.tags%s
+D a-textio.ads		20240521074738 5c2c6153 ada.text_io%s
+D a-unccon.ads		20240521074738 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20240521074738 c3a8ac65 ada.unchecked_deallocation%s
+D gnat.ads		20240521074738 b5988c27 gnat%s
+D g-os_lib.ads		20240521074738 0db74523 gnat.os_lib%s
+D intel_rapl_sysfs.ads	20250102165510 9b6a35d9 intel_rapl_sysfs%s
+D intel_rapl_sysfs.adb	20250102165510 b95591fe intel_rapl_sysfs%b
+D interfac.ads		20240521074738 15f799c2 interfaces%s
+D i-cstrea.ads		20240521074738 e53d8b8e interfaces.c_streams%s
+D system.ads		20240521074738 426dafb8 system%s
+D s-atocou.ads		20240521074738 dc18efc3 system.atomic_counters%s
+D s-crtl.ads		20240521074738 8a0692f8 system.crtl%s
+D s-exctab.ads		20240521074738 91bef6ef system.exception_table%s
+D s-ficobl.ads		20240521074738 dc5161d4 system.file_control_block%s
+D s-finroo.ads		20240521074738 4ff27390 system.finalization_root%s
+D s-os_lib.ads		20240904144414 53d49d2a system.os_lib%s
+D s-parame.ads		20240904144414 1f39ba92 system.parameters%s
+D s-powlfl.ads		20240521074738 ac0852c8 system.powten_lflt%s
+D s-putima.ads		20240521074738 17291fe4 system.put_images%s
+D s-retsta.ads		20240521074738 0f6b06cb system.return_stack%s
+D s-secsta.ads		20240521074738 578279f5 system.secondary_stack%s
+D s-soflin.ads		20240521074738 df77073e system.soft_links%s
+D s-stache.ads		20240521074738 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20240521074738 1c9580f6 system.standard_library%s
+D s-stoele.ads		20240521074738 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20240521074738 8f5a9db6 system.storage_elements%b
+D s-stratt.ads		20240521074738 f7dfd786 system.stream_attributes%s
+D s-string.ads		20240521074738 582aac7d system.strings%s
+D s-traent.ads		20240521074738 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20240521074738 fa2a7f59 system.unsigned_types%s
+D s-vallfl.ads		20240521074738 944236a7 system.val_lflt%s
+D s-valrea.ads		20240521074738 f0598c00 system.val_real%s
+D s-wchcon.ads		20240521074738 d9032363 system.wch_con%s
+G a e
+G c Z s b [calculate_energy intel_rapl_sysfs 37 15 none]
+G c Z s b [check_supported_packages intel_rapl_sysfs 44 15 none]
+G c Z s b [get_max_energy_range intel_rapl_sysfs 46 15 none]
+G c Z s s [intel_rapl_dataIP intel_rapl_sysfs 15 10 none]
+X 1 ada.ads
+16K9*Ada 20e8 20|12r6 12r23 13r6 13r33
+X 8 a-string.ads
+16K13*Strings 35e16 20|13r10 13r37
+X 11 a-strunb.ads
+85K21*Unbounded 766e26 20|13w18 13r45
+X 14 a-textio.ads
+58K13*Text_IO 787e16 20|12w10 12r27
+66P9*File_Type 20|19r18 63r18 97r18
+68n23*In_File{68E9} 20|24r27 31r27 41r35 67r27 69r27 71r27 101r27 105r27
+. 109r27
+114U14*Open 20|24s13 31s13 41s21 67s13 69s13 71s13 101s13 105s13 109s13
+130U14*Close 20|27s13 34s13 44s21 89s9 103s13 107s13 111s13
+549V13*Get_Line{string} 20|26s49 33s48 43s57 77s36 102s66 106s65 110s66
+566U14*Put_Line 20|58s13
+X 17 gnat.ads
+37K9*GNAT 60e9 20|14r6 14r23
+X 18 g-os_lib.ads
+51K14*OS_Lib=51:36 20|14w11 14r28
+X 19 intel_rapl_sysfs.ads
+12K9*Intel_RAPL_sysfs 47l5 47e21 20|16b14 118l5 118t21
+15R10*Intel_RAPL_Data 34e19 37r52 44r60 46r56 20|18r52 62r60 96r56
+18f13*psys{long_float} 20|26m23 28r49
+19f13*pkg{long_float} 20|33m23 35r49 45r57
+20f13*dram{long_float} 20|43m31 45r73
+23f13*total_energy{long_float} 20|28m23 35m23 45m31 57m23
+26b13*psys_supported{boolean} 20|22r22 80m27
+27b13*pkg_supported{boolean} 20|29r25 82m27
+28b13*dram_supported{boolean} 20|38r26 84m27
+31f13*pkg_max_energy_range{long_float} 20|106m23
+32f13*psys_max_energy_range{long_float} 20|102m23
+33f13*dram_max_energy_range{long_float} 20|110m23
+37U15*Calculate_Energy 37=33 20|18b15 60t8
+37r33 RAPL_Data{15R10} 20|18b33 22r12 26m13 28m13 28r39 29r15 33m13 35m13
+. 35r39 38r16 43m21 45m21 45r47 45r63 57m13
+44U15*Check_Supported_Packages 44=41 44>77 20|62b15 94t8
+44r41 RAPL_Data{15R10} 20|62b41 80m17 82m17 84m17
+44a77 Package_Name{string} 20|62b77 66r13 68r16 70r16
+46U15*Get_Max_Energy_Range 46=37 46>73 20|96b15 116t8
+46r37 RAPL_Data{15R10} 20|96b37 102m13 106m13 110m13
+46a73 Package_Name{string} 20|96b73 100r13 104r16 108r16
+X 20 intel_rapl_sysfs.adb
+19p9 F_Name{14|66P9} 24m19 24r19 26r59 27m20 27r20 31m19 31r19 33r58 34m20
+. 34r20 41m27 41r27 43r67 44m28 44r28
+20a9 Folder_Name{string} 24r36 31r36 41r44
+63p9 F_Name{14|66P9} 67m19 67r19 69m19 69r19 71m19 71r19 77r46 89m16 89r16
+64a9 Folder_Name{string} 67r36 69r36 71r36
+77a13 Name_Intel{string} 79r17 81r20 83r20
+97p9 F_Name{14|66P9} 101m19 101r19 102r76 103m20 103r20 105m19 105r19 106r75
+. 107m20 107r20 109m19 109r19 110r76 111m20 111r20
+98a9 Folder_Name{string} 101r36 105r36 109r36
+X 29 s-os_lib.ads
+1049U14*OS_Exit 20|59s13
+

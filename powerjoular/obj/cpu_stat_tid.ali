@@ -1,0 +1,231 @@
+V "GNAT Lib v13"
+A -O3
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_OBSOLESCENT_FEATURES
+
+U cpu_stat_tid%b	cpu_stat_tid.adb	445a13dc NE OO PK IU
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.fixed%s	a-strfix.adb		a-strfix.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W cpu_stat_pid%s	cpu_stat_pid.adb	cpu_stat_pid.ali
+W gnat%s		gnat.ads		gnat.ali
+W gnat.expect%s		g-expect.adb		g-expect.ali
+W gnat.os_lib%s		g-os_lib.ads		g-os_lib.ali
+W gnat.string_split%s	g-strspl.ads		g-strspl.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.val_int%s	s-valint.ads		s-valint.ali
+Z system.val_lli%s	s-vallli.ads		s-vallli.ali
+
+U cpu_stat_tid%s	cpu_stat_tid.ads	15a5a748 EE NE OO PK IU
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W cpu_stat_pid%s	cpu_stat_pid.adb	cpu_stat_pid.ali
+
+D ada.ads		20240521074738 76789da1 ada%s
+D a-assert.ads		20240521074737 ba465f5c ada.assertions%s
+D a-charac.ads		20240521074737 2d3ec45b ada.characters%s
+D a-chlat1.ads		20240521074737 e0d72e76 ada.characters.latin_1%s
+D a-except.ads		20240521074738 2a7d8d70 ada.exceptions%s
+D a-finali.ads		20240521074738 bf4f806b ada.finalization%s
+D a-ioexce.ads		20240521074738 40018c65 ada.io_exceptions%s
+D a-numeri.ads		20240521074738 84bea7a3 ada.numerics%s
+D a-nubinu.ads		20240521074738 93f1f3d1 ada.numerics.big_numbers%s
+D a-nbnbig.ads		20240521074738 711e0174 ada.numerics.big_numbers.big_integers_ghost%s
+D a-stream.ads		20240521074738 119b8fb3 ada.streams%s
+D a-string.ads		20240521074738 90ac6797 ada.strings%s
+D a-strfix.ads		20240521074738 d8832344 ada.strings.fixed%s
+D a-strmap.ads		20240521074738 ed8acfdb ada.strings.maps%s
+D a-strsea.ads		20240521074738 2d394feb ada.strings.search%s
+D a-sttebu.ads		20240521074738 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20240521074738 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20240521074738 9eaa38c6 ada.tags%s
+D a-textio.ads		20240521074738 5c2c6153 ada.text_io%s
+D a-unccon.ads		20240521074738 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20240521074738 c3a8ac65 ada.unchecked_deallocation%s
+D cpu_stat_pid.ads	20250102165510 dc0ad1b6 cpu_stat_pid%s
+D cpu_stat_tid.ads	20250102165510 c9af76fe cpu_stat_tid%s
+D cpu_stat_tid.adb	20250102165510 cd4c1ea5 cpu_stat_tid%b
+D gnat.ads		20240521074738 b5988c27 gnat%s
+D g-arrspl.ads		20240521074738 0b7e9a23 gnat.array_split%s
+D g-expect.ads		20240521074738 e4246c0f gnat.expect%s
+D g-os_lib.ads		20240521074738 0db74523 gnat.os_lib%s
+D g-regpat.ads		20240521074738 b85d88ef gnat.regpat%s
+D g-strspl.ads		20240521074738 dbf24c7a gnat.string_split%s
+D interfac.ads		20240521074738 15f799c2 interfaces%s
+D i-cstrea.ads		20240521074738 e53d8b8e interfaces.c_streams%s
+D system.ads		20240521074738 426dafb8 system%s
+D s-assert.ads		20240521074738 9c4520c7 system.assertions%s
+D s-casuti.ads		20240521074738 cf13d755 system.case_util%s
+D s-crtl.ads		20240521074738 8a0692f8 system.crtl%s
+D s-exctab.ads		20240521074738 91bef6ef system.exception_table%s
+D s-ficobl.ads		20240521074738 dc5161d4 system.file_control_block%s
+D s-finmas.ads		20240521074738 bd688734 system.finalization_masters%s
+D s-finroo.ads		20240521074738 4ff27390 system.finalization_root%s
+D s-imagei.ads		20240521074738 c707dfd0 system.image_i%s
+D s-imgint.ads		20240521074738 d4a52a9b system.img_int%s
+D s-memory.ads		20240521074738 5b8432d0 system.memory%s
+D s-os_lib.ads		20240904144414 53d49d2a system.os_lib%s
+D s-parame.ads		20240904144414 1f39ba92 system.parameters%s
+D s-pooglo.ads		20240521074738 91708d21 system.pool_global%s
+D s-putima.ads		20240521074738 17291fe4 system.put_images%s
+D s-regpat.ads		20240521074738 3f91c1d3 system.regpat%s
+D s-retsta.ads		20240521074738 0f6b06cb system.return_stack%s
+D s-secsta.ads		20240521074738 578279f5 system.secondary_stack%s
+D s-soflin.ads		20240521074738 df77073e system.soft_links%s
+D s-stache.ads		20240521074738 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20240521074738 1c9580f6 system.standard_library%s
+D s-stalib.adb		20240521074738 eb464a47 system.standard_library%b
+D s-stoele.ads		20240521074738 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20240521074738 8f5a9db6 system.storage_elements%b
+D s-stopoo.ads		20240521074738 e9fa2dd8 system.storage_pools%s
+D s-stratt.ads		20240521074738 f7dfd786 system.stream_attributes%s
+D s-string.ads		20240521074738 582aac7d system.strings%s
+D s-traent.ads		20240521074738 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20240521074738 fa2a7f59 system.unsigned_types%s
+D s-valint.ads		20240521074738 1f610d7a system.val_int%s
+D s-vallli.ads		20240521074738 b4c16804 system.val_lli%s
+D s-valllu.ads		20240521074738 ca6e26ce system.val_llu%s
+D s-valuns.ads		20240521074738 e8a1f424 system.val_uns%s
+D s-valuti.ads		20240521074738 fcd603d8 system.val_util%s
+D s-valuei.ads		20240521074738 11081e09 system.value_i%s
+D s-vaispe.ads		20240521074738 44130d39 system.value_i_spec%s
+D s-valueu.ads		20240521074738 18770347 system.value_u%s
+D s-vauspe.ads		20240521074738 a67b2f28 system.value_u_spec%s
+D s-wchcon.ads		20240521074738 d9032363 system.wch_con%s
+D s-widuns.ads		20240521074738 866a5800 system.wid_uns%s
+D s-widthu.ads		20240521074738 b32f15e2 system.width_u%s
+G a e
+G c Z s b [calculate_pid_time_tid cpu_stat_tid 17 15 none]
+G c Z b b [get_tid_time cpu_stat_tid 25 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 24|12r6 12r23 14r6 14r29 18r6 18r26 27r76 27r132 62r97 114r103
+. 124r100
+X 5 a-except.ads
+44K13*Exceptions 295e19 24|18w10 18r30
+84V13*Exception_Message{string} 24|121s23
+X 12 a-string.ads
+16K13*Strings 35e16 24|14r10 14r33 27r80 27r136 62r101 114r107 124r104
+33n24*Left{33E9} 24|27r88 27r144 62r109 114r115 124r112
+X 13 a-strfix.ads
+49K21*Fixed 1433e22 24|14w18 14r41
+1156V13*Trim{string} 24|27s51 27s107 62s56 114s62 124s59
+X 19 a-textio.ads
+58K13*Text_IO 787e16 24|12w10 12r27
+66P9*File_Type 24|26r13
+68n23*In_File{68E9} 24|34r18
+114U14*Open 24|34s9
+130U14*Close 24|40s9
+549V13*Get_Line{string} 24|37s21
+566U14*Put_Line 24|49s13 52s13 55s13 114s13 117s13 120s13 121s13 124s13
+601X4*Status_Error 24|48r27 113r27
+603X4*Name_Error 24|48r14 113r14
+607X4*Data_Error 24|51r14 116r14
+X 22 cpu_stat_pid.ads
+12K9*CPU_STAT_PID 27e17 23|12w6 12r24 24|20w6 20r24
+15R10*CPU_STAT_PID_Data 22e19 23|17r57 24|61r57
+17i13*Before_Time{long_integer} 24|107m22 110r71
+18i13*After_Time{long_integer} 24|109m22 110r49
+19i13*PID_Number{integer} 24|62r84 103r75 114r90 124r87
+21i13*Monitored_Time{long_integer} 24|110m22
+X 23 cpu_stat_tid.ads
+14K9*CPU_STAT_TID 19l5 19e17 24|22b14 128l5 128t17
+17U15*Calculate_PID_Time_TID 17=39 17>76 24|61b15 126l9 126t31
+17r39 PID_Data{22|15R10} 24|61b39 62r75 103r66 107m13 109m13 110m13 110r40
+. 110r62 114r81 124r78
+17b76 Is_Before{boolean} 24|61b76 106r13
+X 24 cpu_stat_tid.adb
+25V14 Get_TID_Time{long_integer} 25b14 25>27 25>43 57l9 57t21 103s52
+25i27 PID{positive} 27r70
+25i43 TID{positive} 27r126
+26p9 F{19|66P9} 34m15 34r15 37r31 40m16 40r16
+27a9 File_Name=27:150{string} 34r27 49r63 52r65 55r63
+28r9 Subs{26|75R9[30|39]} 36m18 43r58 44r58
+29a9 Seps{string} 38r27
+30i9 Utime{long_integer} 43m9 45r21
+31i9 Stime{long_integer} 44m9 45r29
+32i9 Sum_Time{long_integer} 45m9 46r16
+62a9 Task_Directory=62:115{string} 63r46
+63a9 Command=63:44{string} 76r42
+64p9 Args{44|733P12} 76m9 81r31 81r37 82r31 82r37 82r55 86m19 86r19
+65i9 Status{integer} 84m31 84r31
+66r9 Subs{26|75R9[30|39]} 87m48 91r61 95r73
+67a9 Seps{string} 89r48
+68i9 Slice_number_count{26|130I9[30|39]} 91m13 93r27
+69i9 Loop_I{integer} 94m17 95r27
+70i9 TID_Number{integer} 102m17 103r87
+71i9 TID_Counter{integer} 96m17 96r32 100r23
+72i9 TID_Total_Time{long_integer} 103m17 103r35 107r37 109r36
+73A14 TID_Array_Int(integer)<integer> 74r21
+74a9 TID_Array{73A14} 77m9 95m17 101r16 102r31
+79a13 Response{string} 88r48
+93i17 I<integer> 94r75 95r79
+100i13 I{integer} 101r26 102r42
+119r14 E{5|53R9} 121r42
+X 25 gnat.ads
+37K9*GNAT 24|13r6 13r29 15r6 15r23 17r6 17r23 25|60e9
+X 26 g-arrspl.ads
+64E9*Separator_Mode
+70n7*Multiple{64E9[30|39]} 24|39r34[30|39] 90r61[30|39]
+75R9*Slice_Set<6|43R9> 24|28r29[30|39] 66r29[30|39]
+88U14*Create 24|35s22[30|39] 87s26[30|39]
+89r7 S{75R9[30|39]} 24|36r13[30|39] 87r34[30|39]
+90a7 From{string} 24|37r13[30|39] 88r34[30|39]
+91a7 Separators{string} 24|38r13[30|39] 89r34[30|39]
+92e7 Mode{64E9[30|39]} 24|39r13[30|39] 90r34[30|39]
+130I9*Slice_Number<integer> 24|68r43[30|39] 94r55[30|39]
+133V13*Slice_Count{130I9[30|39]} 24|91s48[30|39]
+145V13*Slice{string} 24|43s51[30|39] 44s51[30|39] 95s66[30|39]
+X 27 g-expect.ads
+126K14*Expect 24|17w11 17r28 27|651e16
+227V13*Get_Command_Output{string} 24|80s15
+228a7 Command{string} 24|81r18
+229a7 Arguments{44|728A12} 24|82r18
+230a7 Input{string} 24|83r18
+231p7 Status(integer) 24|84r18
+X 28 g-os_lib.ads
+51K14*OS_Lib=51:36 24|15w11 15r28
+X 30 g-strspl.ads
+39K14*String_Split[26|58] 24|13w11 28r16 35r9 39r21 43r38 44r38 66r16 68r30
+. 87r13 90r48 91r35 94r42 95r53
+X 33 system.ads
+67M9*Address
+X 43 s-memory.ads
+51V13*Alloc{33|67M9} 101i<c,__gnat_malloc>22
+66U14*Free 102i<c,__gnat_free>22
+74V13*Realloc{33|67M9} 103i<c,__gnat_realloc>22
+X 44 s-os_lib.ads
+71A12*String_List{59|52A9}<integer>
+85P12*String_List_Access{59|53P9}
+91U14*Free=91:69 24|86s13
+728A12*Argument_List{71A12}<integer>
+733P12*Argument_List_Access{85P12} 24|64r22
+750V13*Argument_String_To_List{733P12} 24|76s17
+1049U14*OS_Exit 24|115s13 118s13 122s13 125s13
+X 54 s-stalib.adb
+87U14 Break_Start 88i<c,__gnat_break_start>22
+X 59 s-string.ads
+43P9*String_Access(string)
+52A9*String_List(43P9)<integer>
+53P9*String_List_Access(52A9)
+

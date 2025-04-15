@@ -1,0 +1,29 @@
+[GENERATED OBJECT FILE]
+b__powerjoular.o
+[PROJECT FILES]
+/home/afonso/Documents/powerjoular/powerjoular.gpr
+20250102165510 7ced01ec51864fa527f8d04904deb161
+[BOUND OBJECT FILES]
+/home/afonso/Documents/powerjoular/obj/cpu_cycles.o
+/home/afonso/Documents/powerjoular/obj/cpu_stat_app.o
+/home/afonso/Documents/powerjoular/obj/cpu_stat_pid.o
+/home/afonso/Documents/powerjoular/obj/cpu_stat_tid.o
+/home/afonso/Documents/powerjoular/obj/csv_power.o
+/home/afonso/Documents/powerjoular/obj/help_info.o
+/home/afonso/Documents/powerjoular/obj/intel_rapl_sysfs.o
+/home/afonso/Documents/powerjoular/obj/nvidia_smi.o
+/home/afonso/Documents/powerjoular/obj/os_utils.o
+/home/afonso/Documents/powerjoular/obj/raspberry_pi_cpu_formula.o
+/home/afonso/Documents/powerjoular/obj/virtual_machine.o
+/home/afonso/Documents/powerjoular/obj/powerjoular.o
+[GENERATED SOURCE FILES]
+b__powerjoular.ads
+b__powerjoular.adb
+b__powerjoular.ali
+[RESULTING OPTIONS]
+-L/home/afonso/Documents/powerjoular/obj/
+-L/home/afonso/Documents/powerjoular/obj/
+-L/usr/lib/gcc/x86_64-linux-gnu/13/adalib/
+-static
+/usr/lib/gcc/x86_64-linux-gnu/13/adalib/libgnat.a
+-ldl

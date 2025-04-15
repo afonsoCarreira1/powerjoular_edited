@@ -1,0 +1,228 @@
+V "GNAT Lib v13"
+A -O3
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U csv_power%b		csv_power.adb		fbc51108 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.calendar.formatting%s  a-calfor.adb	a-calfor.ali
+W ada.calendar.time_zones%s  a-catizo.adb	a-catizo.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.latin_1%s  a-chlat1.ads	a-chlat1.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.long_float_text_io%s  a-lfteio.ads	a-lfteio.ali
+W ada.strings%s		a-string.ads		a-string.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z interfaces%s		interfac.ads		interfac.ali
+Z system.arith_64%s	s-arit64.adb		s-arit64.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+
+U csv_power%s		csv_power.ads		05eab1ed EE NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+
+D ada.ads		20240521074738 76789da1 ada%s
+D a-assert.ads		20240521074737 ba465f5c ada.assertions%s
+D a-calend.ads		20240904144414 e6961b4c ada.calendar%s
+D a-calfor.ads		20240521074737 0f4707d1 ada.calendar.formatting%s
+D a-catizo.ads		20240521074737 eaa56756 ada.calendar.time_zones%s
+D a-charac.ads		20240521074737 2d3ec45b ada.characters%s
+D a-chlat1.ads		20240521074737 e0d72e76 ada.characters.latin_1%s
+D a-except.ads		20240521074738 2a7d8d70 ada.exceptions%s
+D a-finali.ads		20240521074738 bf4f806b ada.finalization%s
+D a-ioexce.ads		20240521074738 40018c65 ada.io_exceptions%s
+D a-lfteio.ads		20240521074738 4969a46f ada.long_float_text_io%s
+D a-numeri.ads		20240521074738 84bea7a3 ada.numerics%s
+D a-nubinu.ads		20240521074738 93f1f3d1 ada.numerics.big_numbers%s
+D a-nbnbig.ads		20240521074738 711e0174 ada.numerics.big_numbers.big_integers_ghost%s
+D a-stream.ads		20240521074738 119b8fb3 ada.streams%s
+D a-string.ads		20240521074738 90ac6797 ada.strings%s
+D a-strmap.ads		20240521074738 ed8acfdb ada.strings.maps%s
+D a-sttebu.ads		20240521074738 f1ad67a2 ada.strings.text_buffers%s
+D a-strunb.ads		20240521074738 7bfb7010 ada.strings.unbounded%s
+D a-stuten.ads		20240521074738 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20240521074738 9eaa38c6 ada.tags%s
+D a-textio.ads		20240521074738 5c2c6153 ada.text_io%s
+D a-tiflio.ads		20240521074738 9fe024a2 ada.text_io.float_io%s
+D a-unccon.ads		20240521074738 0e9b276f ada.unchecked_conversion%s
+D csv_power.ads		20250102165510 05eab1ed csv_power%s
+D csv_power.adb		20250102165719 73324074 csv_power%b
+D interfac.ads		20240521074738 15f799c2 interfaces%s
+D i-cstrea.ads		20240521074738 e53d8b8e interfaces.c_streams%s
+D system.ads		20240521074738 426dafb8 system%s
+D s-arit64.ads		20240521074738 90488c35 system.arith_64%s
+D s-assert.ads		20240521074738 9c4520c7 system.assertions%s
+D s-atocou.ads		20240521074738 dc18efc3 system.atomic_counters%s
+D s-casuti.ads		20240521074738 cf13d755 system.case_util%s
+D s-crtl.ads		20240521074738 8a0692f8 system.crtl%s
+D s-exctab.ads		20240521074738 91bef6ef system.exception_table%s
+D s-ficobl.ads		20240521074738 dc5161d4 system.file_control_block%s
+D s-finroo.ads		20240521074738 4ff27390 system.finalization_root%s
+D s-imagei.ads		20240521074738 c707dfd0 system.image_i%s
+D s-imgint.ads		20240521074738 d4a52a9b system.img_int%s
+D s-parame.ads		20240904144414 1f39ba92 system.parameters%s
+D s-putima.ads		20240521074738 17291fe4 system.put_images%s
+D s-retsta.ads		20240521074738 0f6b06cb system.return_stack%s
+D s-secsta.ads		20240521074738 578279f5 system.secondary_stack%s
+D s-soflin.ads		20240521074738 df77073e system.soft_links%s
+D s-stache.ads		20240521074738 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20240521074738 1c9580f6 system.standard_library%s
+D s-stoele.ads		20240521074738 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20240521074738 8f5a9db6 system.storage_elements%b
+D s-stratt.ads		20240521074738 f7dfd786 system.stream_attributes%s
+D s-traent.ads		20240521074738 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20240521074738 fa2a7f59 system.unsigned_types%s
+D s-valint.ads		20240521074738 1f610d7a system.val_int%s
+D s-valuns.ads		20240521074738 e8a1f424 system.val_uns%s
+D s-valuti.ads		20240521074738 fcd603d8 system.val_util%s
+D s-valuei.ads		20240521074738 11081e09 system.value_i%s
+D s-vaispe.ads		20240521074738 44130d39 system.value_i_spec%s
+D s-valueu.ads		20240521074738 18770347 system.value_u%s
+D s-vauspe.ads		20240521074738 a67b2f28 system.value_u_spec%s
+D s-wchcon.ads		20240521074738 d9032363 system.wch_con%s
+D s-widuns.ads		20240521074738 866a5800 system.wid_uns%s
+D s-widthu.ads		20240521074738 b32f15e2 system.width_u%s
+G a e
+G c Z s b [save_to_csv_file csv_power 15 15 none]
+G c Z s b [save_pid_to_csv_file csv_power 18 15 none]
+G c Z s b [show_on_terminal csv_power 21 15 none]
+G c Z s b [show_on_terminal_pid csv_power 24 15 none]
+G c Z b b [get_timestamp csv_power 22 15 none]
+X 1 ada.ads
+16K9*Ada 20e8 26|12r6 12r23 13r6 13r24 14r6 14r34 15r6 15r35 16r6 16r35 17r6
+. 17r33 18r6 18r34
+X 3 a-calend.ads
+36K13*Calendar 402e17 26|13w10 13r28 15r10 15r39 16r10 16r39
+42I9*Time<226I9> 26|23r25 70r15 109r15
+48I12*Year_Number{integer} 26|24r25
+49I12*Month_Number{integer} 26|25r25
+50I12*Day_Number{integer} 26|26r25
+56V13*Clock{42I9} 26|23s33 70s23 109s23
+72U14*Split 26|31s9
+226I9 Time_Rep<long_long_integer>
+X 4 a-calfor.ads
+24K22*Formatting 223e28 26|15w19 15r48
+X 5 a-catizo.ads
+19K22*Time_Zones 35e28 26|16w19 16r48
+X 6 a-charac.ads
+16K13*Characters 18e19 26|18r10 18r38
+X 7 a-chlat1.ads
+16K24*Latin_1 294e27 26|18w21 18r49
+32e4*HT{character} 26|159r26 161r24 185r38 187r46 192r22
+36e4*CR{character} 26|147r14 182r14
+51e4*ESC{character} 26|148r14 183r14
+X 11 a-lfteio.ads
+18K13*Long_Float_Text_IO[23|46] 26|14w10 14r38
+X 16 a-string.ads
+16K13*Strings 35e16 26|17r10 17r37
+X 19 a-strunb.ads
+85K21*Unbounded 766e26 26|17w18 17r45
+X 22 a-textio.ads
+58K13*Text_IO 787e16 26|12w10 12r27
+66P9*File_Type 26|22r37 69r13 73r34 108r13 112r34
+68n32*Out_File{68E9} 26|89r22 99r24 124r22 134r24
+68n42*Append_File{68E9} 26|92r22 127r22
+88I12*Field{integer}
+98U14*Create 26|99s13 134s13
+114U14*Open 26|89s13 92s13 124s13 127s13
+130U14*Close 26|95s9 102s13 130s9 137s13
+275U14*New_Line 26|84s13 119s13
+436U14*Put 26|147s9 182s9
+512U14*Put 26|58s9 78s13 80s13 82s13 117s13
+519U14*Put 26|148s9 149s9 151s9 152s9 154s9 157s13 159s13 161s13 166s13 168s13
+. 170s13 172s13 183s9 185s13 187s13 190s9 192s9 194s9 196s9
+555U14*Put_Line 26|100s13 135s13
+603X4*Name_Error 26|97r14 132r14
+X 23 a-tiflio.ads
+71U14*Put 26|77s13[11|18] 79s13[11|18] 81s13[11|18] 83s13[11|18] 116s13[11|18]
+. 118s13[11|18]
+74i7 Fore{22|88I12} 26|77r44[11|18] 79r44[11|18] 81r42[11|18] 83r42[11|18]
+. 116r44[11|18] 118r38[11|18]
+76i7 Exp{22|88I12} 26|77r34[11|18] 79r34[11|18] 81r32[11|18] 83r32[11|18]
+. 116r34[11|18] 118r28[11|18]
+85U14*Put 26|150s9[11|18] 153s9[11|18] 158s13[11|18] 167s13[11|18] 171s13[11|18]
+. 189s9[11|18] 191s9[11|18] 193s9[11|18] 195s9[11|18]
+87i7 Fore{22|88I12} 26|150r31[11|18] 153r35[11|18] 158r39[11|18] 167r46[11|18]
+. 171r46[11|18] 189r52[11|18] 191r48[11|18] 193r35[11|18] 195r31[11|18]
+88i7 Aft{22|88I12} 26|150r42[11|18] 153r46[11|18] 158r50[11|18] 167r57[11|18]
+. 171r57[11|18] 189r63[11|18] 191r59[11|18] 193r46[11|18] 195r42[11|18]
+89i7 Exp{22|88I12} 26|150r21[11|18] 153r25[11|18] 158r29[11|18] 167r36[11|18]
+. 171r36[11|18] 189r42[11|18] 191r38[11|18] 193r25[11|18] 195r21[11|18]
+X 25 csv_power.ads
+12K9*CSV_Power 26l5 26e14 26|20b14 199l5 199t14
+15U15*Save_To_CSV_File 15>33 15>52 15>78 15>104 15>128 15>152 26|68b15 105t8
+15a33 Filename{string} 26|68b33 89r32 92r35 99r34
+15f52 Utilization{long_float} 26|68b52 77r21
+15f78 Total_Power{long_float} 26|68b78 79r21
+15f104 CPU_Power{long_float} 26|68b104 81r21
+15f128 GPU_Power{long_float} 26|68b128 83r21
+15b152 Overwrite_Data{boolean} 26|68b152 87r12
+18U15*Save_PID_To_CSV_File 18>37 18>56 18>82 18>102 26|107b15 140t8
+18a37 Filename{string} 26|107b37 124r32 127r35 134r34
+18f56 Utilization{long_float} 26|107b56 116r21
+18f82 Power{long_float} 26|107b82 118r21
+18b102 Overwrite_Data{boolean} 26|107b102 122r12
+21U15*Show_On_Terminal 21>33 21>59 21>79 21>108 21>132 21>156 26|142b15 174t8
+21f33 Utilization{long_float} 26|142b33 146r35
+21f59 Power{long_float} 26|142b59 150r14 164r29
+21f79 Previous_Power{long_float} 26|142b79 164r37
+21f108 CPU_Power{long_float} 26|142b108 153r14
+21f132 GPU_Power{long_float} 26|142b132 158r18
+21b156 GPU_Supported{boolean} 26|142b156 156r13
+24U15*Show_On_Terminal_PID 24>37 24>67 24>91 24>117 24>137 26|176b15 197t8
+24f37 PID_Utilization{long_float} 26|176b37 181r39
+24f67 PID_Power{long_float} 26|176b67 193r14
+24f91 Utilization{long_float} 26|176b91 180r35
+24f117 Power{long_float} 26|176b117 195r14
+24b137 Is_PID{boolean} 26|176b137 184r13
+X 26 csv_power.adb
+22U15 Get_Timestamp 22b15 22>30 65l13 65t26 76s13 115s13
+22p30 F{22|66P9} 58r13
+23i9 Current_Time{3|42I9} 31r15
+24i9 Year{3|48I12} 31m29 58r16
+25i9 Month{3|49I12} 31m35 59r21
+26i9 Day{3|50I12} 31m42 60r21
+27o9 Seconds{duration} 31m47 33r34 38r29
+28i9 Hours{integer} 35m9 51m17 51r26 53r20 54m21 61r21
+28i16 Minutes{integer} 36m9 47m13 47r24 49r16 50m17 62r21
+28i25 Secs{integer} 37m9 42m13 42r21 45r12 46m13 63r21
+28i31 Msecs{integer} 38m9 40r16 41m13 41r31 64r21
+29i9 Total_Seconds{integer} 33m9 35r20 36r21 37r20 38r48
+69p9 F{22|66P9} 89m19 89r19 92m19 92r19 94r20 95m16 95r16 99m21 99r21 100r23
+. 101r24 102m20 102r20
+70i9 Now{3|42I9}
+73U19 Save_Data 73b19 73>30 85l13 85t22 94s9 101s13
+73p30 F{22|66P9} 76r27 77r18 78r18 79r18 80r18 81r18 82r18 83r18 84r23
+108p9 F{22|66P9} 124m19 124r19 127m19 127r19 129r20 130m16 130r16 134m21
+. 134r21 135r23 136r24 137m20 137r20
+109i9 Now{3|42I9}
+112U19 Save_Data 112b19 112>30 120l13 120t22 129s9 136s13
+112p30 F{22|66P9} 115r27 116r18 117r18 118r18 119r23
+143f9 Utilization_Percentage{long_float} 146m9
+144f9 Power_Difference{long_float} 164m9 165r13 167r18 171r18
+177f9 Utilization_Percentage{long_float} 180m9 191r14
+178f9 PID_Utilization_Percentage{long_float} 181m9 189r14
+X 27 interfac.ads
+56I9*Integer_64<long_long_integer>
+X 30 s-arit64.ads
+59I12*Int64{27|56I9}
+92V13*Multiply_With_Ovflo_Check64{59I12} 96i<c,__gnat_mulv64>22
+

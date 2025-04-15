@@ -1,0 +1,190 @@
+V "GNAT Lib v13"
+A -O3
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U virtual_machine%b	virtual_machine.adb	df2c234f NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.directories%s	a-direct.adb		a-direct.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W gnat%s		gnat.ads		gnat.ali
+W gnat.os_lib%s		g-os_lib.ads		g-os_lib.ali
+W gnat.string_split%s	g-strspl.ads		g-strspl.ali
+Z system%s		system.ads		system.ali
+Z system.atomic_operations.test_and_set%s  s-aotase.adb  s-aotase.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.val_lflt%s	s-vallfl.ads		s-vallfl.ali
+
+U virtual_machine%s	virtual_machine.ads	30f12a6e EE NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.strings%s		a-string.ads		a-string.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+
+D ada.ads		20240521074738 76789da1 ada%s
+D a-calend.ads		20240904144414 e6961b4c ada.calendar%s
+D a-charac.ads		20240521074737 2d3ec45b ada.characters%s
+D a-chlat1.ads		20240521074737 e0d72e76 ada.characters.latin_1%s
+D a-direct.ads		20240521074738 467e87a1 ada.directories%s
+D a-except.ads		20240521074738 2a7d8d70 ada.exceptions%s
+D a-finali.ads		20240521074738 bf4f806b ada.finalization%s
+D a-ioexce.ads		20240521074738 40018c65 ada.io_exceptions%s
+D a-stream.ads		20240521074738 119b8fb3 ada.streams%s
+D a-string.ads		20240521074738 90ac6797 ada.strings%s
+D a-strmap.ads		20240521074738 ed8acfdb ada.strings.maps%s
+D a-sttebu.ads		20240521074738 f1ad67a2 ada.strings.text_buffers%s
+D a-strunb.ads		20240521074738 7bfb7010 ada.strings.unbounded%s
+D a-stuten.ads		20240521074738 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20240521074738 9eaa38c6 ada.tags%s
+D a-textio.ads		20240521074738 5c2c6153 ada.text_io%s
+D a-unccon.ads		20240521074738 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20240521074738 c3a8ac65 ada.unchecked_deallocation%s
+D gnat.ads		20240521074738 b5988c27 gnat%s
+D g-arrspl.ads		20240521074738 0b7e9a23 gnat.array_split%s
+D g-os_lib.ads		20240521074738 0db74523 gnat.os_lib%s
+D g-strspl.ads		20240521074738 dbf24c7a gnat.string_split%s
+D interfac.ads		20240521074738 15f799c2 interfaces%s
+D i-c.ads		20240521074738 5c5a6c17 interfaces.c%s
+D i-cstrea.ads		20240521074738 e53d8b8e interfaces.c_streams%s
+D system.ads		20240521074738 426dafb8 system%s
+D s-atocou.ads		20240521074738 dc18efc3 system.atomic_counters%s
+D s-atoope.ads		20240521074738 c7637a25 system.atomic_operations%s
+D s-aotase.ads		20240521074738 90cf94ab system.atomic_operations.test_and_set%s
+D s-aotase.adb		20240521074738 e581b407 system.atomic_operations.test_and_set%b
+D s-atopri.ads		20240521074738 1b132436 system.atomic_primitives%s
+D s-crtl.ads		20240521074738 8a0692f8 system.crtl%s
+D s-exctab.ads		20240521074738 91bef6ef system.exception_table%s
+D s-ficobl.ads		20240521074738 dc5161d4 system.file_control_block%s
+D s-finroo.ads		20240521074738 4ff27390 system.finalization_root%s
+D s-memory.ads		20240521074738 5b8432d0 system.memory%s
+D s-os_lib.ads		20240904144414 53d49d2a system.os_lib%s
+D s-parame.ads		20240904144414 1f39ba92 system.parameters%s
+D s-powlfl.ads		20240521074738 ac0852c8 system.powten_lflt%s
+D s-putima.ads		20240521074738 17291fe4 system.put_images%s
+D s-retsta.ads		20240521074738 0f6b06cb system.return_stack%s
+D s-secsta.ads		20240521074738 578279f5 system.secondary_stack%s
+D s-soflin.ads		20240521074738 df77073e system.soft_links%s
+D s-stache.ads		20240521074738 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20240521074738 1c9580f6 system.standard_library%s
+D s-stalib.adb		20240521074738 eb464a47 system.standard_library%b
+D s-stoele.ads		20240521074738 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20240521074738 8f5a9db6 system.storage_elements%b
+D s-stratt.ads		20240521074738 f7dfd786 system.stream_attributes%s
+D s-string.ads		20240521074738 582aac7d system.strings%s
+D s-traent.ads		20240521074738 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20240521074738 fa2a7f59 system.unsigned_types%s
+D s-vallfl.ads		20240521074738 944236a7 system.val_lflt%s
+D s-valrea.ads		20240521074738 f0598c00 system.val_real%s
+D s-wchcon.ads		20240521074738 d9032363 system.wch_con%s
+D virtual_machine.ads	20250102165510 4b0a5a7e virtual_machine%s
+D virtual_machine.adb	20250102165510 09b76bfa virtual_machine%b
+G a e
+G c Z s b [read_vm_power virtual_machine 18 14 none]
+G c Z b b [read_powerjoular virtual_machine 23 14 none]
+G c Z b b [read_watts virtual_machine 55 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 56|13r6 13r33 57|13r6 13r33 14r6 14r27 15r6 15r23 18r6 18r26
+X 5 a-direct.ads
+76K13*Directories 524e20 57|14w10 14r31
+310V13*Exists{boolean} 57|111s16
+X 6 a-except.ads
+44K13*Exceptions 295e19 57|18w10 18r30
+84V13*Exception_Message{string} 57|85s65 92s54
+X 10 a-string.ads
+16K13*Strings 35e16 56|13r10 13r37 57|13r10 13r37
+X 13 a-strunb.ads
+85K21*Unbounded 766e26 56|13w18 13r45 57|13w18 13r45
+91R9*Unbounded_String<7|43R9> 745e15 56|18r40 18r73 57|25r17 57r18 96r41
+. 96r74
+108V13*To_Unbounded_String{91R9} 57|31s17 35s20 61s17 77s21
+121V13*To_String{string} 57|38s48 66s50 82s41 97s34 98s37
+243V14*"="{boolean} 57|35s17
+X 16 a-textio.ads
+58K13*Text_IO 787e16 57|15w10 15r27
+66P9*File_Type 57|24r13 56r18
+68n23*In_File{68E9} 57|30r18 60r18
+114U14*Open 57|30s9 60s9
+130U14*Close 57|32s9 62s9
+549V13*Get_Line{string} 57|31s38 61s38
+566U14*Put_Line 57|51s13 85s17 92s13 130s13 133s13
+X 19 gnat.ads
+37K9*GNAT 60e9 57|16r6 16r23 17r6 17r29
+X 20 g-arrspl.ads
+64E9*Separator_Mode
+70n7*Multiple{64E9[22|39]} 57|40r61[22|39]
+75R9*Slice_Set<7|43R9> 57|26r29[22|39]
+88U14*Create 57|37s26[22|39]
+89r7 S{75R9[22|39]} 57|37r34[22|39]
+90a7 From{string} 57|38r34[22|39]
+91a7 Separators{string} 57|39r34[22|39]
+92e7 Mode{64E9[22|39]} 57|40r34[22|39]
+145V13*Slice{string} 57|43s59[22|39]
+X 21 g-os_lib.ads
+51K14*OS_Lib=51:36 57|16w11 16r28
+X 22 g-strspl.ads
+39K14*String_Split[20|58] 57|17w11 26r16 37r13 40r48 43r46
+X 26 system.ads
+67M9*Address
+X 36 s-memory.ads
+51V13*Alloc{26|67M9} 101i<c,__gnat_malloc>22
+66U14*Free 102i<c,__gnat_free>22
+74V13*Realloc{26|67M9} 103i<c,__gnat_realloc>22
+X 37 s-os_lib.ads
+1049U14*OS_Exit 57|52s13 86s17 93s13 131s13 134s13
+X 46 s-stalib.adb
+87U14 Break_Start 88i<c,__gnat_break_start>22
+X 56 virtual_machine.ads
+15K9*Virtual_Machine 20l5 20e20 57|20b14 137l5 137t20
+18V14*Read_VM_Power{long_float} 18>28 18>58 57|96b14 135l9 135t22
+18r28 File_Name{13|91R9} 57|96b29 97r44
+18r58 Power_Format{13|91R9} 57|96b59 98r47
+X 57 virtual_machine.adb
+23V14 Read_PowerJoular{long_float} 23b14 23>32 53l9 53t25 117s22
+23a32 File_Path{string} 30r27
+24p9 F{16|66P9} 30m15 30r15 31r48 32m16 32r16
+25r9 Line{13|91R9} 31m9 35r12 38r59
+26r9 Subs{20|75R9[22|39]} 37m48 43r66
+27a9 Seps{string} 39r48
+28f9 Power_Value{long_float} 43m13 45r20
+55V14 Read_Watts{long_float} 55b14 55>26 94l9 94t19 120s26
+55a26 File_Path{string} 60r27
+56p9 F{16|66P9} 60m15 60r15 61r48 62m16 62r16
+57r9 Line{13|91R9} 61m9 66r61 77m13 82r52
+58f9 Result{long_float} 82m13 89r16
+66a13 Temp{string} 67r34 70r22 71r28 71r41 71r61 73r34
+67a13 Clean{string} 73m21 77r42
+68i13 j{natural} 73r28 74m21 74r26 77r54
+70i17 i{integer} 71r34 71r47 71r67 73r40
+84r18 E{6|53R9} 85r84
+91r14 E{6|53R9} 92r73
+97a9 VM_File_Name{string} 106r12 111r24 117r40 120r38
+98a9 VM_Power_Format{string} 116r12 119r16
+99f9 Power{long_float} 117m13 120m17 126r16
+102X9 Invalid_File_Name_Exception 107r19 112r19 129r14
+103X9 Invalid_Format_Exception 122r23 132r14
+
